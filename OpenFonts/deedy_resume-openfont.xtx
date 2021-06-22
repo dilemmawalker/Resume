@@ -66,7 +66,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Yash}{Handa}{ \urlstyle{same}\href{https://dilemmawalker.github.io/website/}{https://dilemmawalker.github.io/website/} | 
-\href{6397258306}{6397258306} \\
+\urlstyle{same}\href{ 6397258306 }{ 6397258306 } \\
 \urlstyle{same}\href{https://github.com/dilemmawalker}{https://github.com/dilemmawalker} | \href{mailto:Yashhanda500@gmail.com}{yashhanda500@gmail.com}
 }
 
@@ -189,7 +189,7 @@ proximity with industry professionals.
 \sectionsep
 
 \runsubsection{The Mentor}
-\descript{| Coding & Development Intern }
+\descript{| Coding and Development Intern }
 \location{March 2021 – May 2021 | Delhi}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
@@ -203,13 +203,13 @@ test series of different subjects as well.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Tears of The Earth Organization}
+\runsubsection{Tears of Earth Organization}
 \descript{| Web Development Intern }
 \location{ Dec 2020- March 2021 | Delhi}
 \begin{tightemize}
 \item Worked on Frontend Development on React js, javascript,
 bootstrap & more, made a dynamic website for registration &
-display of community work done at TOE, deployed on AWS &
+display of community work done at TOE, deployed on AWS and
 capable of handling 20k+ registrations at same time
 \item Website link : https://tearsoftheearth.org/
 \end{tightemize}
@@ -234,7 +234,7 @@ capable of handling 20k+ registrations at same time
 \item Made a 3D - printed robotic arm with Arduino, servo motors &
 Bluetooth ,designed using solidworks, having 6 degrees of
 freedom & capable of handling loads upto 4kg.
-\item repo link -> https://github.com/dilemmawalker/Robotic_arm
+\item repo link ->  https://github.com/dilemmawalker/Roboticarm
 
 
 
