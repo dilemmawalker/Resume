@@ -1,0 +1,276 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Yash Handa (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Yash}{Handa}{ \urlstyle{same}\href{https://dilemmawalker.github.io/website/}{https://dilemmawalker.github.io/website/} | 
+\href{6397258306}{6397258306} \\
+\urlstyle{same}\href{https://github.com/dilemmawalker}{https://github.com/dilemmawalker} | \href{mailto:Yashhanda500@gmail.com}{yashhanda500@gmail.com}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\subsection{MAIT, IPU}
+\descript{B.Tech in Computer Science}
+\location{ 2022 | CGPA:  8.5}
+\sectionsep
+
+\subsection{DEI}
+\descript{Diploma in Mechanical Engg}
+\location{ 2019 | CGPA:  8.9}
+
+\sectionsep
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+Facebook:// \href{https://www.facebook.com/yash.handa.96}{\bf yash_fb} \\
+Github:// \href{https://github.com/dilemmawalker}{\bf dilemmawalker} \\
+LinkedIn://  \href{https://www.linkedin.com/in/yash-handa-b73060132/}{\bf Yash} \\
+Portfolio://  \href{https://dilemmawalker.github.io/website/}{\bf Yash Handa} \\
+Twitter://  \href{https://twitter.com/YASHHanda6}{\bf @YASHHanda6} \\
+StackOverflow://  \href{https://stackoverflow.com/users/15544235/yash-handa}{\bf Yash-Handa}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{}
+\section{SKILLS}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+Java \\
+Javascript\\
+React Js \\
+Node Js \\
+Express Js \\
+Postman \\
+Bootstrap\\
+SQL \\
+Git \\
+Arduino & Raspberry Pi \\
+\sectionsep
+
+\subsection{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements}
+\sectionsep
+
+
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Got global rank of 222 out of
+10k+ participants in Codechef
+Dec lunchtime.
+\item 3* Star on Codechef ,4*
+on Hackerrank & 1200 on
+Codeforces.
+\item Worked as GSSOC mentor for
+React-Messenger-App guiding
+30+ students ,  added dark
+mode functionality to it.
+\item Secured 3rd position in
+Coder's Hackathon held at
+MAIT.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Internship Experience}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\runsubsection{Futuresoft India Pvt. Ltd.}
+\descript{|   Software Engineering Intern }
+\location{May 2021 – June 2021 | Delhi}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Working on various MERN stack related projects in close
+proximity with industry professionals.
+\item Made video calling app using Zoom Software Development Kit. 
+\item Used Daily.co API to create professional working app in realtime environment.
+\item Website link:  https://iaugmentfs.azurewebsites.net/
+\end{tightemize}
+\sectionsep
+
+\runsubsection{The Mentor}
+\descript{| Coding & Development Intern }
+\location{March 2021 – May 2021 | Delhi}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Worked on React & Nodejs to make an online education
+portal system capable of handling 10k+ users & providing
+test series of different subjects as well.
+\item Created admin portal using strapio.io & connected it to nodejs backend.
+\item Website link : https://www.thementorway.com/index.php
+
+
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Tears of The Earth Organization}
+\descript{| Web Development Intern }
+\location{ Dec 2020- March 2021 | Delhi}
+\begin{tightemize}
+\item Worked on Frontend Development on React js, javascript,
+bootstrap & more, made a dynamic website for registration &
+display of community work done at TOE, deployed on AWS &
+capable of handling 20k+ registrations at same time
+\item Website link : https://tearsoftheearth.org/
+\end{tightemize}
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\section{Projects}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\runsubsection{Robotic Arm
+}
+
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Made a 3D - printed robotic arm with Arduino, servo motors &
+Bluetooth ,designed using solidworks, having 6 degrees of
+freedom & capable of handling loads upto 4kg.
+\item repo link -> https://github.com/dilemmawalker/Robotic_arm
+
+
+
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Food Spy}
+
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item A modernized app to connect various online food delivery
+platforms together to get the best product at the best price,
+currently being used by small communities & growing
+continuously, made using MERN stack.
+\item repo link -> https://dilemmawalker.github.io/foodspy/
+
+
+
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Whiteboard}
+
+\begin{tightemize}
+\item An online board for drawing & writing purposes without
+downloading any app. Made in html, css & javascript, delpoyed
+using github.
+
+\item repo link-> https://github.com/dilemmawalker/whiteboard
+\end{tightemize}
+\sectionsep
+\sectionsep
+
+
+
+
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
