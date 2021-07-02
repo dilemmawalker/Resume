@@ -250,7 +250,7 @@ capable of handling 20k+ registrations at same time
 
 \begin{tightemize}
 \item App created to detect faces of pictures inserted by user using Clarifai Api  and also maintains count of number of faces detected for a particular user.
-\item repo link -> https://github.com/dilemmawalker/facial_recognition
+\item repo link -> https://github.com/dilemmawalker/Facerecognition
 
 
 
