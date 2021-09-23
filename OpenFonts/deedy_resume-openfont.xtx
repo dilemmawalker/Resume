@@ -83,11 +83,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Education} 
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
 
 \subsection{MAIT, IPU}
 \descript{B.Tech in Computer Science}
-\location{ 2022 | CGPA:  8.5}
+\location{ 2022 | CGPA:  8.7}
 \sectionsep
 
 \subsection{DEI}
@@ -103,31 +103,31 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-Facebook:// \href{https://www.facebook.com/yash.handa.96}{\bf yash_fb} \\
+
 Github:// \href{https://github.com/dilemmawalker}{\bf dilemmawalker} \\
-LinkedIn://  \href{https://www.linkedin.com/in/yash-handa-b73060132/}{\bf Yash} \\
-Portfolio://  \href{https://dilemmawalker.github.io/website/}{\bf Yash Handa} \\
+LinkedIn://  \href{https://www.linkedin.com/in/yash-handa-b73060132/}{\bf Yash-Handa} \\
+Codechef:// \href{https://www.codechef.com/users/dilemma_walker}{\bf dilemma.walker} \\
+Portfolio://  \href{https://dilemmawalker.github.io/website/}{\bf Yash} \\
+StackOverflow://  \href{https://stackoverflow.com/users/15544235/yash-handa}{\bf Yash-Handa}\\
 Twitter://  \href{https://twitter.com/YASHHanda6}{\bf @YASHHanda6} \\
-StackOverflow://  \href{https://stackoverflow.com/users/15544235/yash-handa}{\bf Yash-Handa}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{}
 \section{SKILLS}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-Java \\
-Javascript\\
-React Js \\
-Node Js \\
-Express Js \\
-Postman \\
-Bootstrap\\
-SQL \\
-Git \\
-Arduino & Raspberry Pi \\
-\sectionsep
+
+\descript{Programming Language :}
+Java, C++, Javascript\\
+\descript{Development Tools :}
+Node Js , Express Js, React Js\\
+\descript{ Database :}
+SQL, MongoDB\\
+\descript{ Tools :}
+Postman , Git\\
+\descript{ Others :}
+Arduino , Raspberry Pi \\
+
 
 \subsection{}
 
@@ -137,7 +137,6 @@ Arduino & Raspberry Pi \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Achievements}
-\sectionsep
 
 
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
@@ -146,7 +145,7 @@ Arduino & Raspberry Pi \\
 10k+ participants in Codechef
 Dec lunchtime.
 \item 3* Star on Codechef ,4*
-on Hackerrank & 1200 on
+on Hackerrank , 1200 on
 Codeforces.
 \item Solved 150+ questions on Leetcode and counting.
 \item Secured 3rd position in
@@ -162,19 +161,21 @@ MAIT.
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Programming}
+\section{Coursework}
 \sectionsep
 
 
 
 \begin{tightemize}
-\item Over 10,000 Lines Java.
-\item Over 5,000 Lines Javascript, C++.
-\item Over 1,000 Lines Reactjs.
-\item Using Node and Sql widely as well.
+\item Data Structure and Algorithms.
+\item Object Oriented Programming.
+\item Operating System.
+\item Database Management System.
+\item Computer Networks.
+
 
 \end{tightemize}
-\sectionsep
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -199,22 +200,20 @@ MAIT.
 \location{May 2021 – June 2021 | Delhi}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Working on various MERN stack related projects in close
-proximity with industry professionals.
-\item Made video calling app using Zoom Software Development Kit. 
-\item Used Daily.co API to create professional working app in realtime environment.
+\item Made a Web Conference app using using Zoom Software Development Kit. 
+\item Used Daily.co API and Cisco Webex to create professional working app in realtime environment.
 \item Website link:  https://iaugmentfs.azurewebsites.net/
 \end{tightemize}
 \sectionsep
 
 \runsubsection{The Mentor}
-\descript{| Coding and Development Intern }
+\descript{|Web Development Intern }
 \location{March 2021 – April 2021 | Delhi}
 
 \begin{tightemize}
-\item Worked on React & Nodejs to make an online education
+\item Made an online education
 portal system capable of handling 10k+ users & providing
-test series of different subjects as well.
+test series and education data of different subjects as well.
 \item Created admin portal using strapio.io & connected it to nodejs backend.
 \item Website link : https://thementor.live/
 
@@ -226,10 +225,8 @@ test series of different subjects as well.
 \descript{| Web Development Intern }
 \location{ Dec 2020- March 2021 | Delhi}
 \begin{tightemize}
-\item Worked on Frontend Development on React js, javascript,
-bootstrap & more, made a dynamic website for registration &
-display of community work done at TOE, deployed on AWS and
-capable of handling 20k+ registrations at same time
+\item Built a dynamic website for registration , display of community work done at TOE, deployed on AWS .
+\item Created multiple pages and capable of handling 20k+ registrations at a time.
 \item Website link : https://tearsoftheearth.org/
 \end{tightemize}
 \sectionsep
@@ -246,10 +243,11 @@ capable of handling 20k+ registrations at same time
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 
 \runsubsection{Face Recognition }
+\descript{| NodeJs, ReactJs, Javascript,SQL }
 
 
 \begin{tightemize}
-\item App created to detect faces of pictures inserted by user using Clarifai Api  and also maintains count of number of faces detected for a particular user.
+\item Detects face from pictures inserted by user using Clarifai Api. \item  maintains count of number of pictures inserted by a particular user.
 \item repo link -> https://github.com/dilemmawalker/Facerecognition
 
 
@@ -257,14 +255,14 @@ capable of handling 20k+ registrations at same time
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Robotic Arm
-}
+\runsubsection{Robotic Arm}
+\descript{| C++, Arduino, Solidworks}
 
 
 \begin{tightemize}
-\item Made a 3D - printed robotic arm with Arduino, servo motors &
+\item An IOT based 3D - printed robotic arm with  servo motors ,
 Bluetooth ,designed using solidworks, having 6 degrees of
-freedom & capable of handling loads upto 4kg.
+freedom and capable of handling loads upto 4kg.
 \item repo link ->  https://github.com/dilemmawalker/Roboticarm
 
 
@@ -272,14 +270,13 @@ freedom & capable of handling loads upto 4kg.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Whiteboard}
+\runsubsection{Farm App}
+\descript{| NodeJs, Javascript, Html, Css }
 
 \begin{tightemize}
-\item An online board for drawing & writing purposes without
-downloading any app. Made in html, css & javascript, delpoyed
-using github.
-
-\item repo link-> https://github.com/dilemmawalker/whiteboard
+\item A backend website to read data from source and display using Server Side Rendering, the products being offered currently. 
+\item Designed to read data from JSON file and integrate in Template.
+\item repo link-> https://github.com/dilemmawalker/nodebootcamp
 \end{tightemize}
 
 \sectionsep
@@ -289,13 +286,14 @@ using github.
 \section{Open Source}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 
-\runsubsection{React-Messenger-App
-}
+\runsubsection{React-Messenger-App}
+\descript{| NodeJs, ReactJs, SQL}
 
 
 \begin{tightemize}
-\item Worked as GSSOC mentor for React-Messenger-App guiding 30+ students, and added dark mode functionality to it.
-\item repo link-> https://github.com/DhairyaBahl/React-Messenger-App/
+\item Worked at GSSOC  for React-Messenger-App working and guiding 30+ students,  on pre-created application.
+\item Added dark mode functionality to app.
+\item https://github.com/DhairyaBahl/React-Messenger-App/
 
 
 
